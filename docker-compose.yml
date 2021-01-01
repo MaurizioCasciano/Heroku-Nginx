@@ -1,0 +1,9 @@
+version: "2.4"
+
+services:
+  heroku-nginx:
+    image: heroku-nginx
+    environment:
+      - PORT=10000
+    ports:
+      - 10000:10000
